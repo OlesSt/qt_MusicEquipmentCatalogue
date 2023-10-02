@@ -17,6 +17,11 @@ public:
     EquipmentCatalogue(QWidget *parent = nullptr);
     ~EquipmentCatalogue();
 
+public slots:
+    void nextFET();
+    void nextTUBE();
+    void nextVCA();
+
 signals:
 
 private:
@@ -24,6 +29,7 @@ private:
     QList<Compressor> VCA;
     QList<Compressor> FET;
     QList<Compressor> TUBE;
+    int index;
     Ui::MainWindow *ui;
 
 };

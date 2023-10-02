@@ -6,6 +6,17 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     ui = new Ui::MainWindow();
     ui->setupUi(this);
 
+    ui->labelBrand->setText("Select compressor's type");
+    ui->labelModel->setText("Select compressor's type");
+    ui->labelPrice->setText("Select compressor's type");
+    ui->labelDescrp->setWordWrap(true);
+    ui->labelImage->setFixedSize(271, 99);
+    index = 0;
+
+    connect(ui->pushFET, SIGNAL(clicked()), this, SLOT(nextFET()));
+    connect(ui->pushTUBE, SIGNAL(clicked()), this, SLOT(nextTUBE()));
+    connect(ui->pushVCA, SIGNAL(clicked()), this, SLOT(nextVCA()));
+
     Compressor purpleMC77;
     purpleMC77.setBrand("Purple");
     purpleMC77.setModel("MC77");
@@ -164,4 +175,44 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
 EquipmentCatalogue::~EquipmentCatalogue()
 {
     delete ui;
+}
+
+void EquipmentCatalogue::nextFET()
+{
+    auto it = FET.at(index);
+    ui->labelGetBrand->setText(it.brand());
+    ui->labelGetModel->setText(it.model());
+    ui->labelGetPrice->setText(it.price());
+    ui->labelDescrp->setText(it.description());
+    index++;
+
+    if (index == FET.size())
+        index = 0;
+}
+
+void EquipmentCatalogue::nextTUBE()
+{
+    auto it = TUBE.at(index);
+    ui->labelGetBrand->setText(it.brand());
+    ui->labelGetModel->setText(it.model());
+    ui->labelGetPrice->setText(it.price());
+    ui->labelDescrp->setText(it.description());
+    index++;
+
+    if (index == FET.size())
+        index = 0;
+}
+
+void EquipmentCatalogue::nextVCA()
+{
+    auto it = VCA.at(index);
+    ui->labelGetBrand->setText(it.brand());
+    ui->labelGetModel->setText(it.model());
+    ui->labelGetPrice->setText(it.price());
+    ui->labelDescrp->setText(it.description());
+    index++;
+
+    if (index == FET.size())
+        index = 0;
+
 }

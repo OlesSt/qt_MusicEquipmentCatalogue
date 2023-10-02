@@ -54,3 +54,4 @@ void Compressor::setImage(const QPixmap &newImage)
 {
     m_image = newImage;
 }
+

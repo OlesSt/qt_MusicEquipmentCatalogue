@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>295</width>
-    <height>495</height>
+    <width>350</width>
+    <height>550</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,9 +20,9 @@
    <widget class="QLabel" name="labelMain">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>30</y>
-      <width>251</width>
+      <x>15</x>
+      <y>15</y>
+      <width>320</width>
       <height>59</height>
      </rect>
     </property>
@@ -34,8 +34,8 @@
     </property>
     <property name="maximumSize">
      <size>
-      <width>269</width>
-      <height>59</height>
+      <width>320</width>
+      <height>500</height>
      </size>
     </property>
     <property name="styleSheet">
@@ -48,9 +48,9 @@
    <widget class="QLabel" name="labelImage">
     <property name="geometry">
      <rect>
-      <x>18</x>
+      <x>15</x>
       <y>150</y>
-      <width>251</width>
+      <width>320</width>
       <height>100</height>
      </rect>
     </property>
@@ -62,8 +62,8 @@
     </property>
     <property name="maximumSize">
      <size>
-      <width>269</width>
-      <height>100</height>
+      <width>320</width>
+      <height>500</height>
      </size>
     </property>
     <property name="styleSheet">
@@ -79,10 +79,10 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>15</x>
       <y>370</y>
-      <width>251</width>
-      <height>100</height>
+      <width>320</width>
+      <height>161</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -99,8 +99,8 @@
     </property>
     <property name="maximumSize">
      <size>
-      <width>269</width>
-      <height>100</height>
+      <width>320</width>
+      <height>400</height>
      </size>
     </property>
     <property name="styleSheet">
@@ -110,12 +110,12 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>270</y>
-      <width>251</width>
+      <width>311</width>
       <height>81</height>
      </rect>
     </property>
@@ -262,12 +262,12 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>100</y>
-      <width>251</width>
+      <y>90</y>
+      <width>311</width>
       <height>41</height>
      </rect>
     </property>
