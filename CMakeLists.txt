@@ -22,6 +22,8 @@ add_executable(qt_MusicEquipmentCatalogue
   compressor.h
   compressor.cpp
 
+  res.qrc
+
 )
 target_link_libraries(qt_MusicEquipmentCatalogue Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::Widgets)
 

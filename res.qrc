@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Image/api.jpg</file>
+        <file>Image/avalonTube.jpg</file>
+        <file>Image/chandlerTube.jpg</file>
+        <file>Image/drawner.jpg</file>
+        <file>Image/heritageTube.jpg</file>
+        <file>Image/isg.jpg</file>
+        <file>Image/overstayer.jpg</file>
+        <file>Image/pure.jpg</file>
+        <file>Image/smart_research.jpg</file>
+        <file>Image/splTube.jpg</file>
+        <file>Image/ssl.jpg</file>
+        <file>Image/tubetechTube.jpg</file>
+        <file>Image/urei.jpg</file>
+        <file>Image/vertigo.jpg</file>
+        <file>Image/warm.jpg</file>
+    </qresource>
+</RCC>

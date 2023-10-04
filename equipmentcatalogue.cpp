@@ -24,7 +24,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     purpleMC77.setDescription("Based on user feedback from the MC76, "
                               "the MC77 introduces a number of new improvements such as True Bypass, "
                               "improved stereo linking and a dedicated side chain insert.");
-    purpleMC77.setImage(QPixmap(""));
+    purpleMC77.setImage(QPixmap(":/Images/Image/pure.jpg"));
 
     Compressor urei1176;
     urei1176.setBrand("Urei");
@@ -32,7 +32,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     urei1176.setPrice("1780");
     urei1176.setDescription("The 1176 was meant to be a ‘true peak limiter’ with a very fast attack of up to 20 microseconds, "
                             "and lots of gain for a compressor - up to 45 dB.");
-    urei1176.setImage(QPixmap(""));
+    urei1176.setImage(QPixmap(":/Images/Image/urei.jpg"));
 
     Compressor drawner1970dual;
     drawner1970dual.setBrand("Drawner");
@@ -43,7 +43,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
                                    "transparent and precise recordings that can be processed "
                                    "at a later stage using your favorite warming method, "
                                    "be it saturation, valve, transformer or tape. ");
-    drawner1970dual.setImage(QPixmap(""));
+    drawner1970dual.setImage(QPixmap(":/Images/Image/drawner.jpg"));
 
     Compressor waWA76;
     waWA76.setBrand("Warm Audio");
@@ -51,7 +51,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     waWA76.setPrice("1500");
     waWA76.setDescription("The classic '76 was a major breakthrough in limiter technology,"
                           " and used on hundreds of hit records since its inception");
-    waWA76.setImage(QPixmap(""));
+    waWA76.setImage(QPixmap(":/Images/Image/warm.jpg"));
 
     Compressor igsVOLF;
     igsVOLF.setBrand("IGS");
@@ -60,7 +60,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     igsVOLF.setDescription("The Volfram is a 45dB transistor amplifier equipped with a remarkable limiter. "
                            "Compression is achieved with the FET transistors. "
                            "At extreme settings the Volfram adds some pleasant distortion to the output.");
-    igsVOLF.setImage(QPixmap(""));
+    igsVOLF.setImage(QPixmap(":/Images/Image/isg.jpg"));
 
     FET.append(purpleMC77);
     FET.append(urei1176);
@@ -76,7 +76,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     heritageTUBE.setDescription("Analog excellence is achieved by combining an all tube-based amplification stage "
                                 "with an outstanding UTC A10 input transformer replica by AMI, "
                                 "as well as a custom all-silicon steel output transformer.");
-    heritageTUBE.setImage(QPixmap(":/image/heritageTube.jpg"));
+    heritageTUBE.setImage(QPixmap(":/Images/Image/heritageTube.jpg"));
 
 
     Compressor chandlerRS660;
@@ -86,7 +86,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     chandlerRS660.setDescription("Built around the 6386 vacuum tube, the RS660 Compressor is meticulously tuned for a sound, "
                                  "and the result is a more efficient means to achieve the desired characteristics "
                                  "of the historic 660 and beyond.");
-    chandlerRS660.setImage(QPixmap(":/image/chandlerTube.jpg"));
+    chandlerRS660.setImage(QPixmap(":/Images/Image/chandlerTube.jpg"));
 
     Compressor ttCL1b;
     ttCL1b.setBrand("Tube-Tech");
@@ -94,7 +94,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     ttCL1b.setPrice("1300");
     ttCL1b.setDescription("Its all tube design delivers smooth, musical compression without introducing harshness, "
                           "even when the needle is pegged.");
-    ttCL1b.setImage(QPixmap(":/image/tubetechTube.jpg"));
+    ttCL1b.setImage(QPixmap(":/Images/Image/tubetechTube.jpg"));
 
 
     Compressor avalonVT;
@@ -102,7 +102,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     avalonVT.setModel("VT-737SP");
     avalonVT.setPrice("1560");
     avalonVT.setDescription("The opto compressor features a minimum signal path design with twin Class A vacuum tube triodes for gain matching.");
-    avalonVT.setImage(QPixmap(":/image/avalonTube.jpg"));
+    avalonVT.setImage(QPixmap(":/Images/Image/avalonTube.jpg"));
 
 
     Compressor splITM;
@@ -111,7 +111,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     splITM.setPrice("2100");
     splITM.setDescription("Thanks to the especially conceived Mu-Metal iron transformers, "
                           "the signal of each channel is split across two different twin-triode tubes.");
-    splITM.setImage(QPixmap(":/image/splTube.jpg"));
+    splITM.setImage(QPixmap(":/Images/Image/splTube.jpg"));
 
     TUBE.append(heritageTUBE);
     TUBE.append(chandlerRS660);
@@ -126,7 +126,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     overstVC.setPrice("1200");
     overstVC.setDescription("Designed and built by audio genius Jeff Turzo, "
                             "a man responsible for countless high-end custom gear building projects for top producers.");
-    overstVC.setImage(QPixmap(":/image/overstayer.jpg"));
+    overstVC.setImage(QPixmap(":/Images/Image/overstayer.jpg"));
 
     Compressor vertigoVSC;
     vertigoVSC.setBrand("Vertigo");
@@ -135,7 +135,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     vertigoVSC.setDescription("Hand-made in Germany with a complete cut-no-corners philosophy, "
                               "this is as good as it gets in terms of transparency, detail, "
                               "refinement and musicality.");
-    vertigoVSC.setImage(QPixmap(":/image/vertigo.jpg"));
+    vertigoVSC.setImage(QPixmap(":/Images/Image/vertigo.jpg"));
 
 
     Compressor smC2;
@@ -145,7 +145,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     smC2.setDescription("Inspired by the Oxford, England originators of this compressor style, "
                         "it brings its own set of tricks to the party with its super punchy "
                         "and crazy Crush feature and more adjustability than the originals.");
-    smC2.setImage(QPixmap(":/image/smart_research.jpg"));
+    smC2.setImage(QPixmap(":/Images/Image/smart_research.jpg"));
 
 
     Compressor sslGBUS;
@@ -154,7 +154,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     sslGBUS.setPrice("2300");
     sslGBUS.setDescription("The newest rendition of a long legacy involving "
                            "the best VCA compressor designs this planet has ever seen.");
-    sslGBUS.setImage(QPixmap(":/image/ssl.jpg"));
+    sslGBUS.setImage(QPixmap(":/Images/Image/ssl.jpg"));
 
 
     Compressor api2500;
@@ -163,7 +163,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     api2500.setPrice("1670");
     api2500.setDescription("Tight, punchy, warm and in your face. "
                            "The API sound never fails to excite and this is no exception.");
-    api2500.setImage(QPixmap(":/image/api.jpg"));
+    api2500.setImage(QPixmap(":/Images/Image/api.jpg"));
 
     VCA.append(overstVC);
     VCA.append(vertigoVSC);
@@ -180,6 +180,7 @@ EquipmentCatalogue::~EquipmentCatalogue()
 void EquipmentCatalogue::nextFET()
 {
     auto it = FET.at(index);
+    ui->labelImage->setPixmap(it.image());
     ui->labelGetBrand->setText(it.brand());
     ui->labelGetModel->setText(it.model());
     ui->labelGetPrice->setText(it.price());
@@ -193,6 +194,7 @@ void EquipmentCatalogue::nextFET()
 void EquipmentCatalogue::nextTUBE()
 {
     auto it = TUBE.at(index);
+    ui->labelImage->setPixmap(it.image());
     ui->labelGetBrand->setText(it.brand());
     ui->labelGetModel->setText(it.model());
     ui->labelGetPrice->setText(it.price());
@@ -206,6 +208,7 @@ void EquipmentCatalogue::nextTUBE()
 void EquipmentCatalogue::nextVCA()
 {
     auto it = VCA.at(index);
+    ui->labelImage->setPixmap(it.image());
     ui->labelGetBrand->setText(it.brand());
     ui->labelGetModel->setText(it.model());
     ui->labelGetPrice->setText(it.price());
