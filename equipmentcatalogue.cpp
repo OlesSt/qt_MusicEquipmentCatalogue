@@ -6,9 +6,9 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
     ui = new Ui::MainWindow();
     ui->setupUi(this);
 
-    ui->labelBrand->setText("Select compressor's type");
-    ui->labelModel->setText("Select compressor's type");
-    ui->labelPrice->setText("Select compressor's type");
+    ui->labelGetBrand->setText("");
+    ui->labelGetModel->setText("");
+    ui->labelGetPrice->setText("");
     ui->labelDescrp->setWordWrap(true);
     ui->labelImage->setFixedSize(271, 99);
     index = 0;
@@ -107,7 +107,7 @@ EquipmentCatalogue::EquipmentCatalogue(QWidget *parent)
 
     Compressor splITM;
     splITM.setBrand("SPL");
-    splITM.setModel("IRON TUBE MASTERING");
+    splITM.setModel("IRON TUBE");
     splITM.setPrice("2100");
     splITM.setDescription("Thanks to the especially conceived Mu-Metal iron transformers, "
                           "the signal of each channel is split across two different twin-triode tubes.");
@@ -183,7 +183,7 @@ void EquipmentCatalogue::nextFET()
     ui->labelImage->setPixmap(it.image());
     ui->labelGetBrand->setText(it.brand());
     ui->labelGetModel->setText(it.model());
-    ui->labelGetPrice->setText(it.price());
+    ui->labelGetPrice->setText(it.price() + " $");
     ui->labelDescrp->setText(it.description());
     index++;
 
@@ -197,7 +197,7 @@ void EquipmentCatalogue::nextTUBE()
     ui->labelImage->setPixmap(it.image());
     ui->labelGetBrand->setText(it.brand());
     ui->labelGetModel->setText(it.model());
-    ui->labelGetPrice->setText(it.price());
+    ui->labelGetPrice->setText(it.price() + " $");
     ui->labelDescrp->setText(it.description());
     index++;
 
@@ -211,7 +211,7 @@ void EquipmentCatalogue::nextVCA()
     ui->labelImage->setPixmap(it.image());
     ui->labelGetBrand->setText(it.brand());
     ui->labelGetModel->setText(it.model());
-    ui->labelGetPrice->setText(it.price());
+    ui->labelGetPrice->setText(it.price() + " $");
     ui->labelDescrp->setText(it.description());
     index++;
 

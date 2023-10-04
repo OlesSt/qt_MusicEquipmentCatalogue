@@ -15,7 +15,7 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
-    <string notr="true">background-color:#E6F4F1</string>
+    <string notr="true">background-color:#B9B4C7</string>
    </property>
    <widget class="QLabel" name="labelMain">
     <property name="geometry">
@@ -38,20 +38,28 @@
       <height>500</height>
      </size>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color:#5573EF</string>
+     <string notr="true">background-color:#5C5470</string>
     </property>
     <property name="text">
-     <string>CHOOSE YOUR COMPRESSOR</string>
+     <string>     CATALOGUE OF COMPRESSORS</string>
     </property>
    </widget>
    <widget class="QLabel" name="labelImage">
     <property name="geometry">
      <rect>
-      <x>15</x>
+      <x>40</x>
       <y>150</y>
-      <width>320</width>
-      <height>100</height>
+      <width>279</width>
+      <height>99</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -67,10 +75,10 @@
      </size>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color:#5573EF</string>
+     <string notr="true">background-color:</string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="labelDescrp">
@@ -79,10 +87,10 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>15</x>
-      <y>370</y>
-      <width>320</width>
-      <height>161</height>
+      <x>10</x>
+      <y>360</y>
+      <width>331</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -99,23 +107,23 @@
     </property>
     <property name="maximumSize">
      <size>
-      <width>320</width>
+      <width>500</width>
       <height>400</height>
      </size>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color:#5573EF</string>
+     <string notr="true">background-color:#5C5470</string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>270</y>
-      <width>311</width>
+      <x>40</x>
+      <y>260</y>
+      <width>271</width>
       <height>81</height>
      </rect>
     </property>
@@ -137,7 +145,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color:#5573EF</string>
+          <string notr="true">background-color:</string>
          </property>
          <property name="text">
           <string>BRAND</string>
@@ -159,7 +167,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color:#5573EF</string>
+          <string notr="true">background-color:</string>
          </property>
          <property name="text">
           <string>MODEL</string>
@@ -181,7 +189,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color:#5573EF</string>
+          <string notr="true">background-color:</string>
          </property>
          <property name="text">
           <string>PRICE</string>
@@ -207,10 +215,10 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color:#5573EF</string>
+          <string notr="true">background-color:</string>
          </property>
          <property name="text">
-          <string>TextLabel</string>
+          <string/>
          </property>
         </widget>
        </item>
@@ -229,10 +237,10 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color:#5573EF</string>
+          <string notr="true">background-color:</string>
          </property>
          <property name="text">
-          <string>TextLabel</string>
+          <string/>
          </property>
         </widget>
        </item>
@@ -251,10 +259,10 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color:#5573EF</string>
+          <string notr="true">background-color:</string>
          </property>
          <property name="text">
-          <string>TextLabel</string>
+          <string/>
          </property>
         </widget>
        </item>
@@ -265,10 +273,10 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>0</x>
       <y>90</y>
-      <width>311</width>
-      <height>41</height>
+      <width>351</width>
+      <height>51</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -287,7 +295,7 @@
         </size>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color:#5573EF</string>
+        <string notr="true">background-color:#352F44</string>
        </property>
        <property name="text">
         <string>FET</string>
@@ -309,7 +317,7 @@
         </size>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color:#5573EF</string>
+        <string notr="true">background-color:#352F44</string>
        </property>
        <property name="text">
         <string>TUBE</string>
@@ -331,7 +339,7 @@
         </size>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color:#5573EF</string>
+        <string notr="true">background-color:#352F44</string>
        </property>
        <property name="text">
         <string>VCA</string>
